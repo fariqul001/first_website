@@ -3,6 +3,10 @@
 *{
     margin: 0;
     padding : 0;
+    
+}
+body {
+    background-color: aliceblue;
 }
 .hero{
     background-image: url(./images/Hero-bg.png);
@@ -111,7 +115,7 @@
     margin-bottom: 116px;
     margin-right: 159px;
     border-radius: 24px;
-    background-color: #eda1f471;
+    background-color: rgba(237, 161, 244, 0.44) !important;
     /* opacity: 0.1; */
     
 }
@@ -137,7 +141,7 @@
 .con h1{
     font-size: 80px;
     font-weight: bold;
-    color: #4E47FF !important;
+    color: #4E47FF ;
 
 }
 
@@ -147,4 +151,79 @@
     color: #252432 ;
     opacity: 0.5;
 
+}
+
+
+
+/* user page  */
+
+.user{
+    margin-left: 151px;
+    margin-right: 149px;
+    margin-bottom: 137px;
+
+
+}
+.user h1{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-cards{
+    display: flex;
+    margin-top: 50px;
+    
+    padding: 24px;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    width: 300px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    text-align: left;
+}
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.stars{
+    color: #FFC107; 
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color: white;
+    
+
+}
+.reviewer{
+    margin-top: 24px;
+      background-color: white;
+      display: flex;
+       align-items: center;
+    gap: 10px;
+}
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.reviewer p {
+    margin: 0;
+}
+
+.reviewer .date {
+    margin-top: 4px;
+    opacity: 0.5;
 }
